@@ -20,4 +20,31 @@ header, footer {
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
+    align-items: center;
+}
+
+.col {
+    width: 20%;
+    padding: 15px;
+    background-color: #e0f0ff;
+    border: 2px solid #0077cc;
+    margin: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.middle {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
 }
